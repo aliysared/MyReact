@@ -21,11 +21,7 @@ module.exports = {
   },
   output: {
     path: __dirname + "/src/",
-<<<<<<< HEAD
     filename: "bundle.js"
-=======
-    filename: "client.min.js"
->>>>>>> 077a4f77d64c9ab0dc8dcc01122378508c0e36c7
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
